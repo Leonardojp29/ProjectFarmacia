@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url("../img/fondofarm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 75%;
+    background-color: #eaf0ff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden; /* Añadido para ocultar el contenido que sobresalga de la tabla */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #90a8ff;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+tr:nth-child(even) {
+    background-color: #cfdfff;
+}
+
+a {
+    text-decoration: none;
+    color: #400080;
+}
+a:hover {
+  color: #ff0000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+

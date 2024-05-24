@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url("../img/fondofarm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.container-registrar {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-image: url("../img/registrar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form-table {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-table td {
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.regresar-inicio {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #004080;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+        
+.regresar-inicio a {
+    color: #fff;
+    text-decoration: none;
+}
+        
+.regresar-inicio a:hover {
+    text-decoration: underline;
+}
+
+.imagen-contenedor {
+    width: 200px; /* Ajusta el ancho seg�n tus necesidades */
+    height: 280px; /* Ajusta la altura seg�n tus necesidades */
+    display: inline-block;
+    padding: 25px;
+    
+}
+
+.imagen-contenedor img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 25px;
+}
+/* Estilos para el select */
+.select-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #000000;
+  cursor: pointer;
+  appearance: none;
+}
+
+/* Indicador visual para el select */
+.select-container::after {
+  content: '\25BE'; /* Icono de flecha hacia abajo */
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Estilo al enfocar el select */
+.select-container select:focus {
+  outline: none;
+}
+
+/* Estilo para las opciones del select */
+.select-container select option {
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+/* Estilo para las opciones al pasar el cursor sobre ellas */
+.select-container select option:hover {
+  background-color: #f2f2f2;
+}
+
+

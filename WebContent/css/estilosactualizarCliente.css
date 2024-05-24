@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url("../img/fondofarm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+.container-actualizar {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;    
+    text-align: center;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form-table {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-table td {
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #e50914;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.regresar-inicio {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #004080;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.regresar-inicio a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.regresar-inicio a:hover {
+    text-decoration: underline;
+}
